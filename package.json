@@ -1,14 +1,14 @@
 {
     "name": "device-move",
     "version": "0.0.1",
-    "description": "node.js script for moving Particle devices between sandbox and products",
+    "description": "Example script for moving Particle devices between sandbox and products",
     "private": true,
     "scripts": {
         "start": "node app.js"
     },
     "author": "rick@particle.io",
     "contributors": [],
-    "license": "MIT",
+    "license": "Apache-2.0",
     "dependencies": {
         "@particle/node-example-helper": "0.0.1",
         "axios": "^0.22.0"

@@ -56,7 +56,7 @@ If you are using oAuth tokens created via the Authentication tab in a user accou
 3. From a command prompt or terminal window:
 
 ```
-cd DeviceMove
+cd node-example-device-move
 npm install
 node app.js
 ```
