@@ -46,28 +46,11 @@ The reason is that when the devices come online after moving, they'll still have
 
 If you are using oAuth tokens created via the Authentication tab in a user account (when moving from developer sandbox) or in a product (when moving to a different product), these tokens will no longer work when using the new product. You must create new oAuth tokens from a new client ID and secret created in the destination product. It's not possible to transfer oAuth tokens between accounts or products.
 
-
-## Installation (locally)
-
-1. If you have not already installed [node.js](https://nodejs.org/), v12 or later. The current LTS is 14.18.1, and the current LTS is the recommended version to use.
-
-2. Download this repository from Github. 
-
-3. From a command prompt or terminal window:
-
-```
-cd node-example-device-move
-npm install
-node app.js
-```
-
-4. If you just run the tool, it will prompt you to log in, select your product.
-
-5. You can also edit config.js to customize the configuration, or edit the source in app.js to really customize the behavior.
-
 ## Running in a web browser
 
 If you do not want to install node.js, or can't, because you have a managed computer or Chromebook, you can run the tool from the Chrome web browser on Windows, Linux, Mac, and Chromebook. This uses [Stackblitz](https://stackblitz.com) to run a virtual machine and node *in your web browser*.
+
+Open this page in Chrome: [https://stackblitz.com/edit/node-jgf8uy](https://stackblitz.com/edit/node-jgf8uy?file=app.js)
 
 In the Terminal pane in the lower center of the window, enter the command:
 
@@ -80,6 +63,24 @@ As long as you do not save your project, all of the data is stored in your web b
 If you create a Stackblitz account you can save your project with changes and come back to it later. However, if you are using a free account, be sure to not save any sensitive information like access tokens, because projects in the free account tier are public. By default, the tool does not save access tokens. Only the code and files are saved; any temporary data in memory and the contents of the terminal window are not saved, so you don't have to worry about things you enter interactively even if you save.
 
 Other web browsers will be supported in the future, but this currently only works with Chrome. 
+
+## Installation (locally)
+
+1. If you have not already installed [node.js](https://nodejs.org/), v12 or later. The current LTS is 14.18.1, and the current LTS is the recommended version to use.
+
+2. Download this repository from [Github](https://github.com/particle-iot/node-example-device-move). 
+
+3. From a command prompt or terminal window:
+
+```
+cd node-example-device-move
+npm install
+node app.js
+```
+
+4. If you just run the tool, it will prompt you to log in, select your product.
+
+5. You can also edit config.js to customize the configuration, or edit the source in app.js to really customize the behavior.
 
 ## Example usage
 

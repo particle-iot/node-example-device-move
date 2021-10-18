@@ -1,5 +1,5 @@
 {
-    "name": "device-move",
+    "name": "node-example-device-move",
     "version": "0.0.1",
     "description": "Example script for moving Particle devices between sandbox and products",
     "private": true,
