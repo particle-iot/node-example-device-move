@@ -50,7 +50,7 @@ If you are using oAuth tokens created via the Authentication tab in a user accou
 
 If you do not want to install node.js, or can't, because you have a managed computer or Chromebook, you can run the tool from the Chrome web browser on Windows, Linux, Mac, and Chromebook. This uses [Stackblitz](https://stackblitz.com) to run a virtual machine and node *in your web browser*.
 
-Open this page in Chrome: [https://stackblitz.com/edit/node-jgf8uy](https://stackblitz.com/edit/node-jgf8uy?file=app.js)
+Open this page in Chrome: [https://stackblitz.com/github/particle-iot/node-example-device-move](https://stackblitz.com/github/particle-iot/node-example-device-move)
 
 In the Terminal pane in the lower center of the window, enter the command:
 
@@ -194,6 +194,9 @@ You will typically use this tool without editing the configuration or code at al
 - device-move.js - the code to do the device move process
 
 ## Version History
+
+- Github Repository: [https://github.com/particle-iot/node-example-device-move](https://github.com/particle-iot/node-example-device-move)
+- License: Apache 2.0
 
 ### 0.0.1 (2021-11-18)
 
