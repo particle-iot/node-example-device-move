@@ -52,6 +52,10 @@ If you do not want to install node.js, or can't, because you have a managed comp
 
 Open this page in Chrome: [https://stackblitz.com/github/particle-iot/node-example-device-move](https://stackblitz.com/github/particle-iot/node-example-device-move)
 
+After opening this page, be sure you use the blue **Fork** button in the upper left. This will make a copy of the project you can edit, which will be necessary to update the device list later on.
+
+![fork Project](images/fork-project.png)
+
 In the Terminal pane in the lower center of the window, enter the command:
 
 ```
@@ -197,6 +201,11 @@ You will typically use this tool without editing the configuration or code at al
 
 - Github Repository: [https://github.com/particle-iot/node-example-device-move](https://github.com/particle-iot/node-example-device-move)
 - License: Apache 2.0
+
+### 0.0.2 (2021-11-26)
+
+- Add warning to fork Stackblitz project
+- Error that occurs at the end of moving devices during cleanup
 
 ### 0.0.1 (2021-11-18)
 

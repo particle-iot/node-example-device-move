@@ -4,6 +4,11 @@ const axios = require('axios');
 
 (function(deviceMove) {
 
+    deviceMove.withConfig = function(config) {
+        deviceMove.config = config;
+        return deviceMove;
+    }
+
     deviceMove.setup = function(helper) {
 
         helper.getDevicesToMoveList = async function(productId, opts) {
@@ -172,8 +177,8 @@ const axios = require('axios');
                 }
             }
 
-            if (config.removeDevicesFile) {
-                fs.rmSync(devicesFilePath);
+            if (deviceMove.config.removeDevicesFile) {
+                fs.unlinkSync(devicesFilePath);
             }
 
             return {

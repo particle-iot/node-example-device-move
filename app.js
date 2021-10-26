@@ -12,7 +12,9 @@ helper
     .withRootDir(__dirname)
     .withConfig(config);
 
-deviceMove.setup(helper);
+deviceMove
+    .withConfig(config)
+    .setup(helper);
  
 async function run() {
     console.log('Moving devices into a product may affect billing and typically requires that ');
